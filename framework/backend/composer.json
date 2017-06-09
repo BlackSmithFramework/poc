@@ -1,0 +1,39 @@
+{
+  "name": "BlackSmithFramework/framework",
+  "description": "BlackSmith Framework",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Khary Sharpe",
+      "email": "ksharpe@email.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.6.4",
+    "illuminate/config": "5.4.*",
+    "illuminate/container": "5.4.*",
+    "illuminate/filesystem": "5.4.*",
+    "illuminate/database": "5.4.*",
+    "illuminate/events": "5.4.*",
+    "illuminate/http": "5.4.*",
+    "illuminate/routing": "5.4.*",
+    "illuminate/view": "5.4.*",
+    "illuminate/cookie": "5.4.*",
+    "illuminate/pagination": "5.4.*",
+    "illuminate/cache": "5.4.*",
+    "illuminate/validation": "5.4.*",
+    "illuminate/encryption": "5.4.*",
+    "illuminate/queue": "5.4.*",
+    "illuminate/bus": "5.4.*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Blacksmith\\Framework\\": ""
+    }
+  },
+  "config": {
+    "preferred-install": "dist",
+    "sort-packages": true
+  },
+  "minimum-stability": "stable"
+}
