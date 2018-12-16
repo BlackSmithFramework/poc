@@ -1,0 +1,22 @@
+{
+    "name": "blacksmithframework/poc",
+    "description": "The Backsmith Framework.",
+    "keywords": ["framework", "blacksmith"],
+    "license": "MIT",
+    "homepage": "https://blacksmithfw.com",
+    "support": {
+        "issues": "https://github.com/blacksmithframework/poc/issues",
+        "source": "https://github.com/blacksmithframework/poc"
+    },
+    "authors": [
+        {
+            "name": "Khary Sharpe",
+            "email": "khary@blacksmithfw.com"
+        }
+    ],
+    "require": {
+        "php": "^7.1.3"
+    }
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}    
